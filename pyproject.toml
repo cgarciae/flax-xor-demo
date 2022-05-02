@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flax-xor-demo"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Garcia <cgarcia.e88@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flax = "^0.4.1"
+jupyterlab = "^3.3.4"
+matplotlib = "^3.5.1"
+optax = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
